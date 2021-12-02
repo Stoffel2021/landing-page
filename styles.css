@@ -15,6 +15,26 @@ header {
     background-color: lightblue;
 }
 
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 40px 8px 40px;
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    list-style: none;
+}
+
+
 footer {
     text-align: center;
     font-size: 20px;
@@ -46,13 +66,15 @@ h1 {
     font-size: 300%;
     /* this is not an ideal solution */
 }
-#tempPic {
+#mainPic {
     width: 500px;
     margin-right: 0;
+    border-radius: 15px;
 }
 
-#tempPic2 {
+#infoPic {
     width: 200px;
+    border-radius: 10px;
 }
 
 .info {
@@ -75,7 +97,7 @@ h1 {
 .infoDivs {
     width: 200px;
     border:2px solid black;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 5px;
 }
 
@@ -111,6 +133,17 @@ h1 {
 }
 .signup-text {
     padding-right: 8px;
+}
+
+.top-signup-button {
+    font-size: 18px;
+    padding: 4px 14px 4px 14px;
+    
+}
+
+.bottom-signup-button {
+    font-size: 18px;
+    padding: 4px 14px 4px 14px;
 }
 
 
